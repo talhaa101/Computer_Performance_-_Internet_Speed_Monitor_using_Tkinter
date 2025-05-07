@@ -15,7 +15,7 @@ def usage():
 
     # Total RAM in GB
     ram_total = math.floor(psutil.virtual_memory().total / 1_000_000_000)
-    ram_count_label.config(text=f"{ram_total} GB" ,image=tk_image,compound=('center'),fg='#00ffff')
+    ram_count_label.config(text=f"{ram_total} GB" ,image=tk_image,compound=('center'),fg='#00ffff ')
 
 
     # ram usage 
